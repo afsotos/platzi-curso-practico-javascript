@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porcentajes y descuentos | Curso Práctico Javascript Platzi</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Porcentajes y descuentos
+        </h1>
+        <p>Este es el segundo taller del curso práctico de Javascript</p>
+    </header>
+
+    <section>
+        <h2>Calcula el precio a pagar de tus productos con descuento</h2>
+
+        <form>
+            <label for="InputPrice">Escribe el precio de tu producto:</label>
+            <input id="InputPrice" type="number" />
+            <br>
+            <label for="InputDiscount">Escribe el descuento de tu producto:</label>
+            <input id="InputDiscount" type="number" />
+            <br>
+            <label for="InputCupon">Si tienes un cupon indica el valor:</label>
+            <input id="InputCupon" type="number" />
+            <br><br>
+            <button type="button" onclick="onClickButtonPriceDiscount()">
+                Calcular el precio con descuento
+            </button>
+
+            <button type="button" onclick="onClickButtonPriceCupon()">
+                Calcular el precio con el cupon
+            </button>
+
+            <p id="ResultP"></p>
+            <br>
+            <h1><p id="ResultPCupon"></p></h1>
+
+        </form>
+    </section>
+
+    <section id="SectArraySwitch">
+        <h2>Ejercicio descuento y cupones con Array y Switch</h2>
+
+        <form>
+            <label for="InputPrice2">Escribe el precio de tu producto:</label>
+            <input id="InputPrice2" type="number" />
+            <br>
+            <label for="InputDiscount2"2>Escribe el descuento de tu producto:</label>
+            <input id="InputDiscount2" type="number" />
+            <br>
+            <label for="InputCupon2">Escribe el cupon de descuento:</label>
+            <input id="InputCupon2" type="text" />
+            <br><br>
+            <button type="button" onclick="onClickButtonPriceDiscount2()">
+                Calcular el precio con descuento
+            </button>
+
+            <button type="button" onclick="onClickButtonPriceCupon2()">
+                Calcular el precio con el cupon
+            </button>
+
+            <p id="ResultP2"></p>
+            <br>
+            <h1><p id="ResultPCupon2"></p></h1>
+
+        </form>
+        
+    </section>
+
+    <section id="SectComplexArray">
+        <h2>Ejercicio descuento y cupones con Array mas Complejo</h2>
+
+        <form>
+            <label for="InputPrice3">Escribe el precio de tu producto:</label>
+            <input id="InputPrice3" type="number" />
+            <br>
+            <label for="InputDiscount3"2>Escribe el descuento de tu producto:</label>
+            <input id="InputDiscount3" type="number" />
+            <br>
+            <label for="InputCupon3">Escribe el cupon de descuento:</label>
+            <input id="InputCupon3" type="text" />
+            <br><br>
+            <button type="button" onclick="onClickButtonPriceDiscount3()">
+                Calcular el precio con descuento
+            </button>
+
+            <button type="button" onclick="onClickButtonPriceCupon3()">
+                Calcular el precio con el cupon
+            </button>
+
+            <p id="ResultP3"></p>
+            <br>
+            <h1><p id="ResultPCupon3"></p></h1>
+
+        </form>
+        
+    </section>
+    
+
+    <script src="./descuentos.js"></script>
+</body>
+</html>
